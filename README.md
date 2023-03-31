@@ -187,6 +187,7 @@ Example: 80.http.get.headers.server:```Apache```
 ## DuckDuckGo
 
 DuckDuckGo's advanced search syntax is flexible and powerful, allowing users to use a wide range of search operators or dorks to refine their search results.
+
 For example, instead of searching for just "cybersecurity", you can use a dork like "intopic:cybersecurity site:example.com -inurl:www" to search for web pages related to the topic of "cybersecurity" on the domain "example.com" that do not contain "www" in their URL.
 
 - ```site:example.com``` - This will search for results only from the specified site, in this case, ```example.com```.
