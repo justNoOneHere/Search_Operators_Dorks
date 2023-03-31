@@ -184,3 +184,40 @@ Example: 80.http.get.body:```password```
 - ```80.http.get.headers.server```: This operator searches for web pages with a specific server in the HTTP response headers.
 Example: 80.http.get.headers.server:```Apache```
 
+## DuckDuckGo
+
+- ```site:example.com``` - This will search for results only from the specified site, in this case, ```example.com```.
+- ```intitle:keyword``` - This will search for pages with the specified keyword in their title tag.
+- ```inurl:keyword``` - This will search for pages with the specified keyword in their URL.
+- ```filetype:extension``` - This will search for files with the specified extension, such as pdf, docx, or ppt.
+- ```related:example.com``` - This will search for pages related to the specified site.
+- ```language:en``` - This will search for pages in the specified language, in this case, English.
+- ```before:yyyy-mm-dd``` - This will search for pages indexed before the specified date.
+- ```after:yyyy-mm-dd``` - This will search for pages indexed after the specified date.
+- ```intext:keyword``` - This will search for pages with the specified keyword in their content.
+- ```weather:location``` - This will display the current weather conditions for the specified location.
+- ```stocks:symbol``` - This will display information about the specified stock symbol.
+- ```define:term``` - This will display the definition of the specified term.
+- ```movie:movie_title``` - This will display information about the specified movie.
+- ```map:location``` - This will display a map of the specified location.
+- ```time:location``` - This will display the current time in the specified location.
+- ```calculator:equation``` - This will display the result of the specified mathematical equation.
+- ```unit:conversion``` - This will convert the specified unit of measurement to another unit.
+- ```intopic:keyword``` - This will search for pages that contain the specified keyword in their topic.
+- ```site:example.com -inurl:www``` - This will search for pages on ```example.com``` that do not contain ```www``` in their URL.
+- ```link:example.com``` - This will display a list of pages that link to ```example.com```.
+- ```movie:movie_title -trailer``` - This will display information about the specified movie, excluding any trailers.
+- ```book:book_title``` - This will display information about the specified book.
+- ```hasvideo``` - This will search for pages that contain video content.
+- ```safesearch:strict``` - This will filter out explicit content from search results.
+- ```hasfav``` - This will search for pages that have been added to a user's favorites.
+- ```filetype:extension``` - This will search for files with the specified extension.
+- ```before:date``` - This will search for pages that were published before the specified date.
+- ```after:date``` - This will search for pages that were published after the specified date.
+- ```ip:address``` - This will display information about the specified IP address.
+- ```inbody:keyword``` - This will search for pages that contain the specified keyword in their body.
+- ```source:domain``` - This will search for pages that originated from the specified domain.
+- ```related:domain``` - This will display a list of pages related to the specified domain.
+- ```music:artist``` - This will display information about the specified music artist.
+- ```hasfeed``` - This will search for pages that have an RSS feed.
+- ```hastitle:keyword``` - This will search for pages that contain the specified keyword in their title.
